@@ -23,9 +23,11 @@
 
 .first-screen{
     background-image: url(../Templates-11/img/Rectangle\ 2.png);
+    height: 800px;
 }
 .top__menu{
     display: flex;
+    background-color: #0084ff7a;
 }
 a{
     text-decoration: none;
@@ -33,12 +35,51 @@ a{
 }
 .menu__logo{
     width: 140px;
+    margin: 10px;
 }
 .menu__text{
     font-family: 'Open';
-    font-size: 14px;
-    margin: 5px;
+    font-size: 13px;
+    margin: 10px;
 }
 .menu{
+    display: flex;
     margin: auto;
+
+}
+.container__cont{
+    max-width: 974px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.rect{
+    width: 444px;
+    height: 720px;
+    background-color: #0084ff7a;
+}
+h1{
+    font-family: "Oswald";
+    font-size: 48px;
+    color: white;
+    margin-bottom: 40px;
+}
+p{
+    font-family: "Open";
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+}
+.but-more{
+    border: 2px solid white;
+    font-family: 'Open';
+    color: white;
+    width: 160px;
+    height: 51px;
+    background-color: rgba(220, 220, 220, 0);
+}
+.first-screen__content{
+    max-width: 635px;
+    margin: auto;
+    
 }
