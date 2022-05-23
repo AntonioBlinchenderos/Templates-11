@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{ 
+    font-family: "Oswald"; 
+    src: url("../Templates-11/fonts/Oswald-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face{ 
+    font-family: "Open"; 
+    src: url("../Templates-11/fonts/OpenSans-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+.container{
+    max-width: 1920px;
+}
+
+.first-screen{
+    background-image: url(../Templates-11/img/Rectangle\ 2.png);
+}
+.top__menu{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu__logo{
+    width: 140px;
+}
+.menu__text{
+    font-family: 'Open';
+    font-size: 14px;
+    margin: 5px;
+}
+.menu{
+    margin: auto;
+}
