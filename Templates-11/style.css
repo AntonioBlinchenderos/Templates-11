@@ -195,10 +195,13 @@ li{
     justify-content: space-between;
     text-align: center;
     margin: 0 auto;
+    margin-top: 70px;
 }
 .choicer-link{
+    font-family: 'Oswald';
     color: #343434;
     font-size: 24px;
+    font-weight: 400;
     letter-spacing: 5%;
 }
 .choicer-link:focus{
@@ -223,4 +226,7 @@ li{
 }
 .catalogslide-desc>h3{
     color: white;
+}
+.slider__item-link{
+    text-decoration: none;
 }
